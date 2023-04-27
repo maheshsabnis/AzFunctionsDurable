@@ -1,0 +1,21 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  },
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+<<<<<<< HEAD
+    "SqlConnectionString":"Server=tcp:mydb007.database.windows.net,1433;Initial Catalog=Company;Persist Security Info=False;User ID=maheshadmin;Password=P@ssw0rd_;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=3"
+=======
+    "SqlConnectionString":"cnonstr"
+>>>>>>> eff9eb3d53f0586c2333c01952e2df6581747a36
+  }
+
+}
